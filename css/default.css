@@ -1,0 +1,77 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --font-color-base: #666;
+  --font-color-dark: #212529;
+  --font-color-light: #57a6ff;
+  --font-color-link: #57a6ff;
+  --footer: #34314b;
+  --font-base: #2e2b45;
+  --contrast: var(--font-color-light);
+  --success: #64ecf5;
+  --danger: #ff8b8d;
+  --grad-1: #a1ecff;
+  --grad-2: #7dbcff;
+  --icon-color: #868686;
+  --background-color-light: #D9D5D5;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--font-color-base);
+  margin: 0;
+  padding: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0;
+}
+
+.container,
+.header-container {
+  display: flex;
+  width: 100%;
+  padding-left: 0.938rem;
+  padding-right: 0.938rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #290355;
+  background-color: #290355;
+}
+
+.header-container {
+  border: 1px solid #6039A7;
+  background-color: #6039A7;
+}
+
+.box {
+  font-size: 2rem;
+  width: 80%;
+  margin-left: 2.0rem;
+}
+
+@media (min-width: 426px) {
+  body {
+    max-width: 425px;
+  }
+}

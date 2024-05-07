@@ -1,0 +1,22 @@
+--Square
+<i class="fa-solid fa-square"></i>
+--Circle
+<i class="fa-solid fa-circle"></i>
+--Triangle
+<i class="fa-solid fa-caret-down"></i>
+--List
+<i class="fa-solid fa-ellipsis-vertical"></i>
+--Bars
+<i class="fa-solid fa-bars"></i>
+--Search
+<i class="fa-solid fa-magnifying-glass"></i>
+--User
+<i class="fa-solid fa-user"></i>
+--Phone
+<i class="fa-solid fa-phone"></i>
+--Location Pin
+<i class="fa-solid fa-location-pin"></i>
+--Envelope
+<i class="fa-solid fa-envelope"></i>
+--Cake
+<i class="fa-solid fa-cake-candles"></i>

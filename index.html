@@ -8,10 +8,88 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/ee166e24ee.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
+  <form action="#">
+
+    <nav class="navbar nav">
+      <div class="container">
+        <ul class="navbar-nav">
+          <li class="nav-link">
+            <a href="#" class="navbar-icon"><i class="fa-solid fa-square"></i></a>
+          </li>
+          <li class="nav-link">
+            <a href="#" class="navbar-icon"><i class="fa-solid fa-circle"></i></a>
+          </li>
+          <li class="nav-link">
+            <a href="#" class="navbar-icon"><i class="fa-solid fa-caret-down"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="nav header">
+      <div class="header-container">
+        <div class="nav-header">
+          <a href="#" class="header-link"><i class="fa-solid fa-bars"></i>Contacts</a>
+        </div>
+        <div class="header-link">
+          <a href="#" class="header-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </div>
+        <div class="header-link">
+          <a href="#" class="header-link"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+        </div>
+      </div>
+    </header>
+
+    <section class="box">
+      <div class="text-box">
+        <div class="side-icon">
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <label for="name"></label>
+        <input type="text" id="name" name="name" placeholder="      Name">
+      </div>
+
+      <div class="phone">
+        <div class="side-icon">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <label for="phone-number"></label>
+        <input type="tel" id="phone-number" name="phone-number" placeholder="   Phone Number">
+        <label for="Number"></label>
+        <input type="number" id="number"  name="number" placeholder="Label">
+      </div>
+
+      <div class="text-box">
+        <div class="side-icon">
+          <i class="fa-solid fa-location-pin"></i>
+        </div>
+        <label for="address"></label>
+        <input type="text" id="address" name="address" placeholder="      Address">
+      </div>
+
+      <div class="text-box">
+        <div class="side-icon">
+          <i class="fa-solid fa-cake-candles"></i>
+        </div>
+        <label for="birthday"></label>
+        <input type="text" id="birthday" name="birthday" placeholder="">
+      </div>
+      
+    </section>
+
+  </form>
 </body>
 
 </html>
