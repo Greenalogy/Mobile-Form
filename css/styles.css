@@ -40,7 +40,13 @@
   font-size: 1.25rem;
 }
 
-input[type="text"] {
+#number {
+  margin-left: 10px;
+}
+
+#name,
+#address,
+#birthday {
   width: 100%;
   border: none;
   border-bottom: 1px solid var(--black);
@@ -48,12 +54,41 @@ input[type="text"] {
   border-radius: 5px;
 }
 
-input[type=tel] {
+input[type="tel"] {
   width: 100%;
 }
 
-input[type=number] {
+input[type="number"] {
   width: 40%;
+}
+
+#city,
+#emails {
+  font-size: 1rem;
+  width: 85%;
+  margin-left: 2rem;
+  background-color: var(--white);
+  border-radius: 5px;
+  margin-top: 1.25rem;
+  margin-left: 3rem;
+}
+
+#state,
+#zip {
+  font-size: 1rem;
+  width: 100%;
+  min-height: 2rem;
+  border-radius: 5px;
+  margin-top: 1.25rem;
+  margin-left: 3rem;
+  border: none;
+  border-bottom: 1px solid var(--black);
+  background-color: var(--background-color-light);
+  border-radius: 5px;
+}
+
+.state-zip {
+  display: flex;
 }
 
 .fa-user,
